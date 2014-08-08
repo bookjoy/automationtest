@@ -1,0 +1,10 @@
+common:
+    url: http://192.168.111.198:8080/egiscloud-web
+    waittime: 5
+brow: 
+    name: firefox
+    driver: chromedriver.exe
+database: 
+    driver: com.mysql.jdbc.Driver
+    dburl: jdbc:mysql://localhost:3306/mobile_pass?allowMultiQueries=true"
+

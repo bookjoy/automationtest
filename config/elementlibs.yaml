@@ -1,0 +1,106 @@
+#定位方式根据有：id,link,xPath,css,name,partial,tag,class
+index_big_img:
+    locator_type: id
+    locator_value: index-big-pic-close
+login_link:
+    locator_type: link
+    locator_value: 登录
+account_login:
+    locator_type: link
+    locator_value: 账号登录
+email_input:
+    locator_type: id
+    locator_value: email
+fakePassword_span:
+    locator_type: id
+    locator_value: fakePassword
+password_input:
+    locator_type: id
+    locator_value: password
+validCode_input:
+    locator_type: id
+    locator_value: validCode
+submit_button:
+    locator_type: xPath
+    locator_value: //*[@id="loginForm"]/div[6]/a
+andriod_checkbox:
+    locator_type: name
+    locator_value: osType
+zero_price_for_andriod:
+    locator_type: id
+    locator_value: serviceTotalMoney
+to_buy_button_show:
+    locator_type: id
+    locator_value: toBuyShowName
+back_to_shopping_car:
+    locator_type: class
+    locator_value: text_underline
+isInvoice_radio:
+    locator_type: id
+    locator_value: isInvoice
+appservice_link:
+    locator_type: link
+    locator_value: 产品服务
+to_buy_button:
+    locator_type: link
+    locator_value: 立即购买
+select_province:
+    locator_type: id
+    locator_value: provinceId
+select_city:
+    locator_type: id
+    locator_value: cityId
+select_area:
+    locator_type: id
+    locator_value: areaId
+mail_address_input:
+    locator_type: id
+    locator_value: mailAddress
+mail_contacts_input:
+    locator_type: id
+    locator_value: mailContacts
+mail_contactTel_input:
+    locator_type: id
+    locator_value: mailContactTel
+save_invoice_button:
+    locator_type: link
+    locator_value: 保存发票及收件信息
+order_success_text:
+    locator_type: tag
+    locator_value: h3
+myservice_link:
+    locator_type: link
+    locator_value: 我的服务
+apkprotect_img:
+    locator_type: css
+    locator_value: body > div.container > div > div > div.col-md-10.text-center.right-content > div:nth-child(2) > div.panel-body.text-center > div:nth-child(1) > div:nth-child(4) > div > a > img
+upload_file:
+    locator_type: id
+    locator_value: uploadFile
+app_upload_progress:
+    locator_type: xPath
+    locator_value: //*[@id="app_upload_progress"]/text()
+order_save:
+    locator_type: id
+    locator_value: orderSave
+contact_us:
+    locator_type: partial
+    locator_value: 立即联系我们
+follow_services_name:
+    locator_type: name
+    locator_value: followServicesName
+contact_tel:
+    locator_type: id
+    locator_value: contactTel
+switch_to_frame:
+    locator_type: id
+    locator_value: customerBusinessMsg
+switch_intrest_table:
+    locator_type: id
+    locator_value: intrest-table
+
+
+
+
+
+    

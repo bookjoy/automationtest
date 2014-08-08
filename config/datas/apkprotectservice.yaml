@@ -1,0 +1,7 @@
+#-*-coding:utf-8-*-
+test_order_submit:
+  upload_file: C:/Users/user/Desktop/sipedi/com.baidu.netdisk_110439.apk
+  upload_file_script: javascript:applyFaOrAp();
+  assert:
+    expect_value: 上传中…
+    message: 

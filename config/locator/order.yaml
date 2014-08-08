@@ -1,0 +1,31 @@
+#! /usr/bin/env python
+#coding=utf-8
+#event list : click,input,radio,checkbox,select,file,script
+#operator list:  Equal, NotEqual, True, False,Is, IsNot, IsNone, IsNotNone, In, NotIn, Greater, GreaterEqual, Less, LessEqual
+
+test_order_confirm:
+    - {appservice_link: click}#点击产品服务链接
+    - {to_buy_button: click}#点击产品服务页面的‘立即购买’按钮
+    - {to_buy_button_show: click}#点击安全评估页面的‘立即购买’按钮
+    - {isInvoice_radio: radio-1} #选择公司转账
+    - {select_province: select-6}#选择寄件地址省份
+    - {select_city: select-2}#选择寄件地址市
+    - {select_area: select-2}#选择寄件地址地区
+    - {mail_address_input: input}#输入寄件详细地址
+    - {mail_contacts_input: input}#输入联系人
+    - {mail_contactTel_input: input}#输入联系电话
+    - {save_invoice_button: click}#点击‘保存发票及收件信息’按钮
+    - {order_save: click}#点击‘提交订单’按钮
+    - {assert: {operator: equal,by_id: order_success_text}}#断言
+    
+test_order_submit:
+    - {appservice_link: click}#点击产品服务链接
+    - {to_buy_button: click}  #点击产品服务页面的‘立即购买’按钮
+    - {to_buy_button_show: click}#点击安全评估页面的‘立即购买’按钮
+    #- {isInvoice_radio: radio-3}
+    #- {order_save: click}
+    #- {select_province: select-6}
+    #- {select_city: select-2}
+    - {assert: {operator: equal,by_id: url}}#最后断言
+
+

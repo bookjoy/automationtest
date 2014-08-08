@@ -1,0 +1,12 @@
+#-*-coding:utf-8-*-
+test_order_submit:
+  assert:
+    expect_value: http://192.168.111.198:8080/egiscloud-web/order/confirm/general/4,2,1
+    message: 
+test_order_confirm:
+  mail_address_input: 高新开发区滨海路111号
+  mail_contacts_input: 王五
+  mail_contactTel_input: 051212345678
+  assert:
+    expect_value: 订单提交成功，请您尽快付款！
+    message: 

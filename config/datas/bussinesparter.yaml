@@ -1,0 +1,6 @@
+#-*-coding:utf-8-*-
+test_free_submit:
+  contact_tel: 051212345678
+  assert:
+    expect_value: 商务合作
+    message: 

@@ -1,0 +1,5 @@
+login:
+    method1: test_login1
+    method2: test_login2
+appservice:         
+    method1: test_is_safety_evaluation

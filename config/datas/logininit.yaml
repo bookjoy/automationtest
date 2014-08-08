@@ -1,0 +1,8 @@
+#-*-coding:utf-8-*-
+logininit:
+  email_input: 
+  password_input: 
+  validCode_input: 
+  assert:
+    expect_value: 
+    message: 

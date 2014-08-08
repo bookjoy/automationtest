@@ -1,0 +1,10 @@
+logininit:
+    - {index_big_img: click}
+    - {login_link: click}
+    - {account_login: click}
+    - {email_input: input}
+    - {fakePassword_span: click}
+    - {password_input: input}
+    - {validCode_input: input}
+    - {submit_button: click}
+    - {assert: equal}
